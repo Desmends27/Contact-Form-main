@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .input-tag{
+        @apply block border border-gray-500 rounded w-[100%] text-lg p-1;
+    }
+    .center{
+        @apply mx-auto
+    }
+    .karla{
+        font-family: "Karla";
+    }
+    .error{
+        @apply text-sm text-red-700;
+    }
+}

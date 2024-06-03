@@ -1,0 +1,24 @@
+{
+  "name": "contact-form-main",
+  "version": "1.0.0",
+  "description": "![Design preview for the Contact form coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "tailwindcss build -i input.css -o ./css/output.css",
+    "watch": "tailwindcss build -i ./input.css -o ./css/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Desmends27/Contact-Form-main.git"
+  },
+  "author": "Desmond Mends",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Desmends27/Contact-Form-main/issues"
+  },
+  "homepage": "https://github.com/Desmends27/Contact-Form-main#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.3"
+  }
+}
