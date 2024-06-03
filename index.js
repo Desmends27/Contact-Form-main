@@ -87,7 +87,8 @@ function checkInput() {
   }
   if (submit_val && check_val){
     success.classList.remove("hidden");
-    alert("hello")
+    document.getElementById("form").reset();
+    window.scrollTo(0,0);
   }
 
   return submit_val && check_val;
@@ -95,6 +96,4 @@ function checkInput() {
 sumbit_btn.addEventListener('click', (e) => {
   e.preventDefault();
   checkInput();
-  document.getElementById("form").reset();
-  window.scrollTo(0,0);
 })
